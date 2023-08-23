@@ -129,9 +129,6 @@ function TableDisplay({ selectedTable }) {
                         onChange={(e) => setSearchValue(e.target.value)}
                         style={{ marginRight: '10px' }}
                     />
-                    <Button type="primary" onClick={handleSearch}>
-                        Search
-                    </Button>
                     <Table
                         dataSource={data}
                         columns={columns}

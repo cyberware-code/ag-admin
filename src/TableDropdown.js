@@ -26,9 +26,8 @@ function TableDropdown({ onTableChange }) {
 
     return (
         <div>
-            <label>Select a Table: </label>
             <select value={selectedTable} onChange={handleTableChange}>
-                <option value="">-- Select Table --</option>
+                <option value="">Choose..</option>
                 {tables.map((table) => (
                     <option key={table} value={table}>
                         {table}
