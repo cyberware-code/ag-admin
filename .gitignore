@@ -1,0 +1,24 @@
+# Dependencies
+/node_modules
+
+# Build files
+/build
+/dist
+
+# Environment files
+.env
+.env.development
+.env.test
+.env.production
+
+# IDE and Editor files
+.idea
+.vscode
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+You can create a new file named .gitignore in the root directory of your React app and paste these rules into it. This will prevent files and directories specified in the .gitignore from being included in your Git repository when you push it to GitHub. Adjust the .gitignore as needed based on your project's specific requirements.
